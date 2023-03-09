@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Activities Map',
-    siteUrl: 'https://www.baidu.com',
+    siteUrl: 'https://mytracks.fun',
     // logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
     logo: 'https://s2.loli.net/2023/03/07/SGt8NUagCoOD6j9.jpg',
     description: 'Personal Activities Page',
@@ -14,7 +14,7 @@ module.exports = {
       // },
       {
         name: 'About',
-        url: 'https://www.baidu.com',
+        url: 'https://mytracks.fun/about',
       },
     ],
   },
