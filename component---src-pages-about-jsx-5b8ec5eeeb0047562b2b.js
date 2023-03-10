@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkworkouts_page=self.webpackChunkworkouts_page||[]).push([[354],{2700:function(e,t,u){u.r(t);var l=u(7294),n=u(9110),r=u(2712);t.default=()=>{const{siteUrl:e}=(0,r.Z)();return l.createElement(n.Z,null,l.createElement("p",null,"我去过的一些地方，希望随着时间推移，地图点亮的地方越来越多."))}}}]);
+//# sourceMappingURL=component---src-pages-about-jsx-5b8ec5eeeb0047562b2b.js.map
