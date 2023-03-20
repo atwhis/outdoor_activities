@@ -4,7 +4,8 @@ module.exports = {
     siteTitle: 'Activities Map',
     siteUrl: 'https://mytracks.fun',
     // logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
-    logo: 'https://s2.loli.net/2023/03/07/SGt8NUagCoOD6j9.jpg',
+    //logo: 'https://s2.loli.net/2023/03/07/SGt8NUagCoOD6j9.jpg',
+    logo: 'https://temposs-1311201927.cos.accelerate.myqcloud.com/img/SGt8NUagCoOD6j9.jpeg',
     description: 'Personal Activities Page',
     keywords: 'workouts, running, cycling, riding, hiking',
     navLinks: [
