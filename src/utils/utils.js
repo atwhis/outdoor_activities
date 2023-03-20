@@ -23,11 +23,14 @@ import {
 const titleForShow = (run) => {
   const date = run.start_date_local.slice(0, 11);
   const distance = (run.distance / 1000.0).toFixed(1);
+  const pace = run.average_speed;
+  const paceParts = pace ? formatPace(pace) : null;
+  const runTime = formatRunTime(distance,pace);
   let name = 'Run';
   if (run.name) {
     name = run.name;
   }
-  return `${name} ${date} ${distance} KM ${
+  return `${date} ${name} ${distance} KM ${runTime} ${paceParts}${
     !run.summary_polyline ? '(No map data for this workout)' : ''
   }`;
 };
