@@ -2053,5 +2053,20 @@
 "average_speed": 1.755,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 8883147951,
+"name": "\u508d\u665a\u8dd1\u6b65",
+"distance": 5028.1,
+"moving_time": "0:30:30",
+"type": "Run",
+"start_date": "2023-04-13 11:26:41+00:00",
+"start_date_local": "2023-04-13 19:26:41",
+"location_country": "\u6d77\u6ca7\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, \u4e2d\u56fd",
+"summary_polyline": "qlxtC{pboUBGG~@@d@OPOHi@@o@IqCII?IICa@HiBAa@DYBu@FYC[HeA?c@Jq@@aBH[Eo@Bm@RuCCa@OMOCEBCTAv@I`BE`@Ab@@XIzA@^AbAIlBI`@K~C@VIlACdAQdE?pAALEF[Do@BqBAmBEi@EyAEc@?gAEqCE}@KgDEoBKm@G{@A}EWoCAcDM}BOkBS}DI_CMkCIY?{@GeEKGPCt@@fAKfBInEKlC?v@NrB`@vBNJf@FBIAI]wAOw@EmBHgDJ}BJoADgBDWJG`FLfAFz@ArAHj@@h@DN?\\I^Cv@HbDHnBFzAJrDHdAH`EJdAHb@@t@DT?`AJp@?|ALb@?tBFlBJfCH`@B`AA^D",
+"average_heartrate": 166.3,
+"average_speed": 2.748,
+"source": "strava",
+"streak": 1
 }
 ]
