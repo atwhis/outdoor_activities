@@ -52,7 +52,7 @@ const YearStat = ({ year, onClick }) => {
     0
   );
   const hasAverageSpeed = !(sumAverageSpeed === 0);
-  const averageSpeed = formatPace((sumAverageSpeed / runs.length).toFixed(0));
+  const averageSpeed = formatPace(sumAverageSpeed / runs.length);
 
   const workoutsArr = Object.entries(workoutsCounts);
   workoutsArr.sort((a, b) => {
