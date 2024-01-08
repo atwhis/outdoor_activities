@@ -24,10 +24,12 @@ const YearStat = ({ year, onClick }) => {
   let streak = 0;
   let heartRate = 0;
   let heartRateNullCount = 0;
+  let sumAverageSpeed = 0;
   const workoutsCounts = {};
 
   runs.forEach((run) => {
     sumDistance += run.distance || 0;
+    sumAverageSpeed += run.average_speed;
     if (run.average_speed) {
       if(workoutsCounts[run.type]){
         var [oriCount, oriAvgSpd, oriDistance] = workoutsCounts[run.type]
@@ -49,6 +51,8 @@ const YearStat = ({ year, onClick }) => {
   const avgHeartRate = (heartRate / (runs.length - heartRateNullCount)).toFixed(
     0
   );
+  const hasAverageSpeed = !(sumAverageSpeed === 0);
+  const averageSpeed = formatPace((sumAverageSpeed / runs.length).toFixed(0));
 
   const workoutsArr = Object.entries(workoutsCounts);
   workoutsArr.sort((a, b) => {
@@ -84,6 +88,9 @@ const YearStat = ({ year, onClick }) => {
         />
         {hasHeartRate && (
           <Stat value={avgHeartRate} description=" Avg Heart Rate" />
+        )}
+        {hasAverageSpeed && (
+          <Stat value={averageSpeed} description=" Avg Speed" />
         )}
       </section>
       {hovered && (
